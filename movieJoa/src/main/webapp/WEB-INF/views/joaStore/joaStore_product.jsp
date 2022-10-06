@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>스낵</title>
+<title>상품페이지</title>
 <link rel="stylesheet" type="text/css" href="css/main.css">
 <link rel="stylesheet" type="text/css" href="css/joaStore.css">
 </head>
@@ -19,10 +19,13 @@
 	</div>
 	<div class="store_spaceMaker"></div>
 	<hr color="#dcdcdc">
-	<div class="store_container">
-	<div class="left">
-		<div class="snack"><h1>스낵<span class="material-symbols-outlined">add_circle</span></h1></div>
-	</div></div>
+	
+	<div class="product_main">
+		<div class="product_container">
+		<h1>고소팝콘(L)</h1>
+		<hr color="black" size="2px">
+		</div>
+	</div>
 <c:import url="../footer.jsp"></c:import>
 </body>
 </html>

@@ -7,6 +7,8 @@
     font-style: normal;
 }
 
+/**store*/
+
 .store_main{
 	text-align:center;
 }
@@ -62,4 +64,18 @@
 
 .store_container span{
 	float:right;
+}
+
+.store_spaceMaker{
+	height:50px;	
+}
+
+
+/**product*/
+
+.product_main{
+	display:flex;
+	align-items:center;
+	max-width:1100px;
+	margin:auto;
 }

@@ -30,5 +30,10 @@ public class JoaStoreController {
 	public String joaStoreSnack() {
 		return "joaStore/joaStore_snack";
 	}
+	
+	@RequestMapping("joaStoreProduct.do")
+	public String joaStoreProduct() {
+		return "joaStore/joaStore_product";
+	}
 
 }
